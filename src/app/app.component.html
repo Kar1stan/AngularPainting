@@ -1,0 +1,11 @@
+<h1>{{title}}</h1>
+<form>
+    <div *ngFor="let painting of paintings">
+     Image:<img appIncrease src="{{painting.image}}">
+     Name:{{painting.name}}<br>
+     Author:{{painting.author}}<br>
+     Year_of_creation:{{painting.year_of_creation|date:"MM/yyyy"}}<br>
+     Size:{{painting.size}}<br>
+     Location:{{painting.location}}<br>
+    </div>
+</form>
