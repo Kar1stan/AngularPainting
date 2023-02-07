@@ -1,6 +1,6 @@
 # AngularPainting
 
-Angular project which contains collection of various images.
+Angular project which contains collection of various images from famous artists.
 
 ## 💻 Pre-requisites
 
